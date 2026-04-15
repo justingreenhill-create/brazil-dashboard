@@ -25,7 +25,7 @@ st.markdown("""<style>
 <div class="flag-display"><div class="flag-diamond"><div class="flag-circle"></div></div></div>
 </div>""", unsafe_allow_html=True)
 
-section = st.sidebar.radio("", ["USD/BRL", "Ibovespa", "DI Rates", "Mean Reversion", "Momentum", "Settings"])
+section = st.sidebar.radio(" ", ["USD/BRL", "Ibovespa", "DI Rates", "Mean Reversion", "Momentum", "Settings"])
 
 if section == "USD/BRL":
     st.markdown('<div class="topbar"><div class="topbar-title">USD/BRL</div></div>', unsafe_allow_html=True)
